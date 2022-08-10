@@ -1,10 +1,20 @@
 {
   "users": [
     {
+      "email": "tu@gmail.com",
+      "password": "$2a$10$jpT9Vv84Cbh7BsZCLkwHFuv8qm63i18ByA3UB9Qd2qEgp.Bi.myrm",
+      "name": "tu",
+      "phone": "123123123",
+      "address": "qưqưeqwdqfqf",
+      "decentralization": "admin",
+      "id": 8
+    },
+    {
       "email": "tintoo113@gmail.com",
       "password": "$2a$10$jpT9Vv84Cbh7BsZCLkwHFuv8qm63i18ByA3UB9Qd2qEgp.Bi.myrm",
       "name": "Tín Đoàn",
       "phone": "0712123123",
+      "decentralization": "admin",
       "address": "qưqfqf",
       "id": 9
     },
@@ -238,7 +248,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Cà Phê Sữa Đá",
+      "productName": "Cà Phê Sữa Đá",
       "type": "coffee",
       "image": "https://minio.thecoffeehouse.com/image/admin/1639377738_ca-phe-sua-da.jpg",
       "price": "29",
@@ -303,7 +313,7 @@
     {
       "id": 9,
       "productName": "Trà Hạt Sen Đá",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594.jpg",
       "price": "45",
       "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi và lớp foam cheese béo ngậy. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
@@ -311,7 +321,7 @@
     {
       "id": 10,
       "productName": "Trà Hạt Sen Nóng",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen-nong_025153.jpg",
       "price": "49",
       "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
@@ -319,7 +329,7 @@
     {
       "id": 11,
       "productName": "Trà Đào Cam-Sả Đá",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/tra-dao-cam-xa_668678.jpg",
       "price": "44",
       "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
@@ -327,7 +337,7 @@
     {
       "id": 12,
       "productName": "Trà Đào Cam-Sả Nóng",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/tdcs-nong_288997.jpg",
       "price": "49",
       "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
@@ -335,7 +345,7 @@
     {
       "id": 13,
       "productName": "Hồng Trà Sữa Trân Châu",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-tran-chau_326977.jpg",
       "price": "55",
       "description": "Thêm chút ngọt ngào cho ngày mới với hồng trà nguyên lá, sữa thơm ngậy được cân chỉnh với tỉ lệ hoàn hảo, cùng trân châu trắng dai giòn có sẵn để bạn tận hưởng từng ngụm trà sữa ngọt ngào thơm ngậy thiệt đã."
@@ -343,50 +353,10 @@
     {
       "id": 14,
       "productName": "Hồng Trà Sữa Nóng",
-      "type": "fruit tea",
+      "type": "other",
       "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg",
       "price": "55",
       "description": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg"
-    },
-    {
-      "id": 15,
-      "productName": "Bánh Mì Que Pate",
-      "type": "cake",
-      "image": "https://minio.thecoffeehouse.com/image/admin/banhmique_056830.jpg",
-      "price": "12",
-      "description": "Vỏ bánh mì giòn tan, kết hợp với lớp nhân pate béo béo đậm đà sẽ là lựa chọn lý tưởng nhẹ nhàng để lấp đầy chiếc bụng đói , cho 1 bữa sáng - trưa - chiều - tối của bạn thêm phần thú vị."
-    },
-    {
-      "id": 16,
-      "productName": "Mochi Kem Việt Quất",
-      "type": "cake",
-      "image": "https://minio.thecoffeehouse.com/image/admin/1643102034_mochi-vietquat.jpg",
-      "price": "19",
-      "description": "Bao bọc bởi lớp vỏ Mochi dẻo thơm, bên trong là lớp kem lạnh cùng nhân việt quất đặc trưng thơm thơm, ngọt dịu. Gọi 1 chiếc Mochi cho ngày thật tươi mát. Sản phẩm phải bảo quán mát và dùng ngon nhất trong 2h sau khi nhận hàng."
-    },
-    {
-      "id": 17,
-      "productName": "Mochi Kem Dừa",
-      "type": "cake",
-      "image": "https://minio.thecoffeehouse.com/image/admin/1643101996_mochi-dua.jpg",
-      "price": "19",
-      "description": "Bao bọc bởi lớp vỏ Mochi dẻo thơm, bên trong là lớp kem lạnh cùng nhân dừa dứa thơm lừng lạ miệng. Gọi 1 chiếc Mochi cho ngày thật tươi mát. Sản phẩm phải bảo quán mát và dùng ngon nhất trong 2h sau khi nhận hàng."
-    },
-    {
-      "id": 18,
-      "productName": "Mít Sấy",
-      "type": "cake",
-      "image": "https://minio.thecoffeehouse.com/image/admin/mit-say_666228.jpg",
-      "price": "20",
-      "description": "Mít sấy khô vàng ươm, giòn rụm, giữ nguyên được vị ngọt lịm của mít tươi."
-    },
-    {
-      "id": 19,
-      "productName": "Gà khô Lá Chanh",
-      "type": "cake",
-      "image": "https://minio.thecoffeehouse.com/image/admin/kho-ga-la-chanh_995862.jpg",
-      "price": "25",
-      "description": "Thịt gà được xé tơi, mang hương vị mặn, ngọt, cay cay quyện nhau vừa chuẩn, thêm chút thơm thơm thơm từ lá chanh sấy khô giòn giòn xua tan ngay cơn buồn miệng."
     }
   ],
   "order": [
@@ -439,6 +409,522 @@
       ],
       "createdAt": 1659102002627,
       "updateAt": 1659102002627
+    },
+    {
+      "id": "47562844-dab1-42ee-895b-4f2884bbe3ab",
+      "userId": 9,
+      "userName": "Doan Cong Tin",
+      "phone": "0702676766",
+      "address": "235 Tố Hữu",
+      "totalBill": 206,
+      "status": "Đã hủy",
+      "date": "30/7/2022",
+      "listProductOrder": [
+        {
+          "id": "d449a477-3542-4dc9-a3da-0beb9a0a0bc1",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 59,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        },
+        {
+          "id": "dbdb673a-4570-4f41-89d5-a25a49cd405d",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 147,
+          "count": 3,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        }
+      ],
+      "createdAt": 1659239911564,
+      "updateAt": 1659239911564
+    },
+    {
+      "id": "50d2dae6-a3f3-47e9-8ff0-b467f0cecf2e",
+      "userId": 9,
+      "userName": "tintoo",
+      "phone": "123123123123",
+      "address": "qưeqweqwe",
+      "totalBill": 74,
+      "status": "Đã hủy",
+      "date": "1/8/2022",
+      "listProductOrder": [
+        {
+          "id": "5b78e06b-c1d9-4323-b7f6-955717da66a8",
+          "idProduct": "3",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377904_bac-siu.jpg",
+          "productName": "Bạc Sỉu",
+          "total": 35,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "548243a9-88d2-459f-90e0-cfb7ae95e940",
+          "idProduct": "3",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377904_bac-siu.jpg",
+          "productName": "Bạc Sỉu",
+          "total": 39,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1659359382981,
+      "updateAt": 1659359382981
+    },
+    {
+      "id": "0a52fae9-ab64-4bbd-8ec2-48a9927ea2f7",
+      "userId": 47,
+      "userName": "ưdqwfqw",
+      "phone": "123123123",
+      "address": "qừqwfqwf",
+      "totalBill": 163,
+      "status": "Đã hủy",
+      "date": "1/8/2022",
+      "listProductOrder": [
+        {
+          "id": "cd4338f0-82d0-45a1-8fbb-b2ca740778b6",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 49,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "39a9a3a7-e954-4e79-b078-cecaeb7dc5b4",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 55,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "dbc72e5c-c3dc-4757-b92b-57a498250eee",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 59,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1659416005798,
+      "updateAt": 1659416005798
+    },
+    {
+      "id": "070ec6c7-a043-442e-913b-ec0baffe3a80",
+      "userId": 47,
+      "userName": "qưdqwdqwd",
+      "phone": "12354235",
+      "address": "1wdqwdqwd",
+      "totalBill": 311,
+      "status": "Đã hủy",
+      "date": "1/8/2022",
+      "listProductOrder": [
+        {
+          "id": "ff89fa2f-5798-422f-ab24-4b63087c013f",
+          "idProduct": "14",
+          "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg",
+          "productName": "Hồng Trà Sữa Nóng",
+          "total": 55,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "4fd0b086-50d6-427b-94d5-c80b7db54d32",
+          "idProduct": "14",
+          "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg",
+          "productName": "Hồng Trà Sữa Nóng",
+          "total": 61,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "a130e08f-d59f-4eab-9b54-161182b3cee1",
+          "idProduct": "14",
+          "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg",
+          "productName": "Hồng Trà Sữa Nóng",
+          "total": 195,
+          "count": 3,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1659416123461,
+      "updateAt": 1659416123461
+    },
+    {
+      "id": "2d36b0ac-a11f-457f-838b-e04a2cfd5868",
+      "userId": 9,
+      "userName": "qửqwerqw",
+      "phone": "131231",
+      "address": "qưdfqfawef",
+      "totalBill": 121,
+      "status": "Đã hủy",
+      "date": "4/8/2022",
+      "listProductOrder": [
+        {
+          "id": "07cc3872-3e44-448c-9f8e-6d9ea449c308",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 35,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "c5347bb1-ef18-4124-982d-5e125185492c",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 41,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "78af0bc0-a1bd-48a0-8751-bb66487274b7",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 45,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1659604596053,
+      "updateAt": 1659604596053
+    },
+    {
+      "id": "53f2976b-6fd1-4ba9-a30b-59c445e392ad",
+      "userId": 9,
+      "userName": "ằqwfqw",
+      "phone": "123123",
+      "address": "qừqwfaf",
+      "totalBill": 121,
+      "status": "Đã hủy",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "bcc88422-2a71-42e8-8e2d-77146667d5e8",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 35,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "12254658-c325-4bdd-b2d0-8fd47cf6903a",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 41,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "b703fa6a-a9e1-4bce-b3f4-04ec77d10076",
+          "idProduct": "4",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377926_bacsiunong.jpg",
+          "productName": "Bạc Sỉu Nóng",
+          "total": 45,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660035847477,
+      "updateAt": 1660035847477
+    },
+    {
+      "id": "2eb13d19-f1e7-48f2-9e35-27d9423606d9",
+      "userId": 9,
+      "userName": "qừqwf",
+      "phone": "123123",
+      "address": "qừqwf",
+      "totalBill": 39,
+      "status": "Đã hủy",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "b80a240b-2186-474c-ac22-09ee02c9f924",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 39,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660040251202,
+      "updateAt": 1660040251202
+    },
+    {
+      "id": "f08be231-2f59-4f1f-b830-3be32123b616",
+      "userId": 9,
+      "userName": "qweqweqwqwe",
+      "phone": "12312312412",
+      "address": "qwfqwqwqwgqw",
+      "totalBill": 103,
+      "status": "Đã nhận",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "244e5deb-7f23-42db-98ff-9d4236c60e2c",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 29,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "49a52d7f-534b-4082-8f21-321d1811dc7b",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 35,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "c502648e-150e-4179-9f72-59fc8a16dc49",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 39,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660102754889,
+      "updateAt": 1660102754889
+    },
+    {
+      "id": "8a4dfc92-c1e7-48aa-9174-930aaa2a32f0",
+      "userId": 9,
+      "userName": "qeqqr",
+      "phone": "123123",
+      "address": "qưfqwf",
+      "totalBill": 104,
+      "status": "Đã nhận",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "002c87f7-3d1c-464a-a374-9a7b3d1985b4",
+          "idProduct": "10",
+          "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen-nong_025153.jpg",
+          "productName": "Trà Hạt Sen Nóng",
+          "total": 49,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "ac3ff306-8c93-40ae-809c-f3563c49201c",
+          "idProduct": "10",
+          "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen-nong_025153.jpg",
+          "productName": "Trà Hạt Sen Nóng",
+          "total": 55,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        }
+      ],
+      "createdAt": 1660103048863,
+      "updateAt": 1660103048863
+    },
+    {
+      "id": "19c69dfc-62d6-4c15-a07c-052baeb48285",
+      "userId": 9,
+      "userName": "qừqwfqw",
+      "phone": "12123",
+      "address": "qưqwqw",
+      "totalBill": 284,
+      "status": "Đã nhận",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "302e2037-4188-4953-9892-156990474e34",
+          "idProduct": "2",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377770_cfsua-nong.jpg",
+          "productName": "Cà Phê Sữa Nóng",
+          "total": 225,
+          "count": 5,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        },
+        {
+          "id": "47348dea-e1fc-497e-a4b6-db505739f139",
+          "idProduct": "8",
+          "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+          "productName": "Latte Nóng",
+          "total": 59,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660103073012,
+      "updateAt": 1660103073012
+    },
+    {
+      "id": "be7391d7-cedc-49a6-b9eb-48f0d2da9ffe",
+      "userId": 9,
+      "userName": "qwfqwfqw",
+      "phone": "123123123",
+      "address": "qwqwqwgq",
+      "totalBill": 151,
+      "status": "Đã nhận",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "fcde0488-5e82-4571-a6ad-a9defa5fc578",
+          "idProduct": "9",
+          "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594.jpg",
+          "productName": "Trà Hạt Sen Đá",
+          "total": 45,
+          "count": 1,
+          "size": {
+            "label": "Nhỏ",
+            "price": 0
+          }
+        },
+        {
+          "id": "6bf92147-81d8-450f-b8ac-a2f9e8b9358b",
+          "idProduct": "9",
+          "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594.jpg",
+          "productName": "Trà Hạt Sen Đá",
+          "total": 51,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "22e531e3-8a62-45f1-ae37-8e17f8f75673",
+          "idProduct": "9",
+          "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594.jpg",
+          "productName": "Trà Hạt Sen Đá",
+          "total": 55,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660104526759,
+      "updateAt": 1660104526759
+    },
+    {
+      "id": "fe55ec9a-4257-4ead-a697-95afe4c35630",
+      "userId": 9,
+      "userName": "qừqfqwfqwf1",
+      "phone": "23123123123",
+      "address": "qừqwfqwf",
+      "totalBill": 74,
+      "status": "Đang giao",
+      "date": "9/8/2022",
+      "listProductOrder": [
+        {
+          "id": "2c85fd46-204b-4f06-a3c3-3a7588671de0",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 35,
+          "count": 1,
+          "size": {
+            "label": "Vừa",
+            "price": 6
+          }
+        },
+        {
+          "id": "3a1b05b0-4b4b-4c9a-92ad-3c8866fc376f",
+          "idProduct": "5",
+          "image": "https://minio.thecoffeehouse.com/image/admin/1639377797_ca-phe-den-da.jpg",
+          "productName": "Cà Phê Đen",
+          "total": 39,
+          "count": 1,
+          "size": {
+            "label": "Lớn",
+            "price": 10
+          }
+        }
+      ],
+      "createdAt": 1660105562322,
+      "updateAt": 1660105562322
     }
   ]
 }
