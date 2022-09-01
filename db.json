@@ -19,6 +19,104 @@
       "id": 2
     }
   ],
+  "products": [
+    {
+      "id": 1,
+      "productName": "Cà Phê Sữa Đá",
+      "type": "coffee",
+      "image": "https://minio.thecoffeehouse.com/image/admin/1639377738_ca-phe-sua-da.jpg",
+      "price": "29",
+      "description": "Cà phê Đắk Lắk nguyên chất được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị."
+    },
+    {
+      "id": 2,
+      "productName": "Cà Phê Sữa Nóng",
+      "type": "coffee",
+      "image": "https://minio.thecoffeehouse.com/image/admin/1639377770_cfsua-nong.jpg",
+      "price": "35",
+      "description": "Cà phê được pha phin truyền thống kết hợp với sữa đặc tạo nên hương vị đậm đà, hài hòa giữa vị ngọt đầu lưỡi và vị đắng thanh thoát nơi hậu vị."
+    },
+    {
+      "id": 3,
+      "productName": "cà phê",
+      "type": "coffee",
+      "image": "data:image/jpeg;base64,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",
+      "price": "30",
+      "description": "Bạc sỉu chính là Ly sữa trắng kèm một chút cà phê. Thức uống này rất phù hợp những ai vừa muốn trải nghiệm chút vị đắng của cà phê vừa muốn thưởng thức vị ngọt béo ngậy từ sữa."
+    },
+    {
+      "id": 6,
+      "productName": "Cà Phê Đen Nóng",
+      "type": "coffee",
+      "image": "https://minio.thecoffeehouse.com/image/admin/1639377816_ca-phe-den-nong.jpg",
+      "price": "35",
+      "description": "Không ngọt ngào như Bạc sỉu hay Cà phê sữa, Cà phê đen mang trong mình phong vị trầm lắng, thi vị hơn. Người ta thường phải ngồi rất lâu mới cảm nhận được hết hương thơm ngào ngạt, phảng phất mùi cacao và cái đắng mượt mà trôi tuột xuống vòm họng."
+    },
+    {
+      "id": 7,
+      "productName": "Latte Đá",
+      "type": "coffee",
+      "image": "https://minio.thecoffeehouse.com/image/admin/latte-da_438410.jpg",
+      "price": "49",
+      "description": "Một sự kết hợp tinh tế giữa vị đắng cà phê Espresso nguyên chất hòa quyện cùng vị sữa nóng ngọt ngào, bên trên là một lớp kem mỏng nhẹ tạo nên một tách cà phê hoàn hảo về hương vị lẫn nhãn quan."
+    },
+    {
+      "id": 8,
+      "productName": "Latte Nóng",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/latte_851143.jpg",
+      "price": "49",
+      "description": "Một sự kết hợp tinh tế giữa vị đắng cà phê Espresso nguyên chất hòa quyện cùng vị sữa nóng ngọt ngào, bên trên là một lớp kem mỏng nhẹ tạo nên một tách cà phê hoàn hảo về hương vị lẫn nhãn quan."
+    },
+    {
+      "id": 9,
+      "productName": "Trà Hạt Sen Đá",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen_905594.jpg",
+      "price": "45",
+      "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi và lớp foam cheese béo ngậy. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
+    },
+    {
+      "id": 10,
+      "productName": "Trà Hạt Sen Nóng",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/tra-sen-nong_025153.jpg",
+      "price": "49",
+      "description": "Nền trà oolong hảo hạng kết hợp cùng hạt sen tươi, bùi bùi thơm ngon. Trà hạt sen là thức uống thanh mát, nhẹ nhàng phù hợp cho cả buổi sáng và chiều tối."
+    },
+    {
+      "id": 11,
+      "productName": "Trà Đào Cam-Sả Đá",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/tra-dao-cam-xa_668678.jpg",
+      "price": "44",
+      "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
+    },
+    {
+      "id": 12,
+      "productName": "Trà Đào Cam-Sả Nóng",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/tdcs-nong_288997.jpg",
+      "price": "49",
+      "description": "Vị thanh ngọt của đào, vị chua dịu của Cam Vàng nguyên vỏ, vị chát của trà đen tươi được ủ mới mỗi 4 tiếng, cùng hương thơm nồng đặc trưng của sả chính là điểm sáng làm nên sức hấp dẫn của thức uống này."
+    },
+    {
+      "id": 13,
+      "productName": "Hồng Trà Sữa Trân Châu",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-tran-chau_326977.jpg",
+      "price": "55",
+      "description": "Thêm chút ngọt ngào cho ngày mới với hồng trà nguyên lá, sữa thơm ngậy được cân chỉnh với tỉ lệ hoàn hảo, cùng trân châu trắng dai giòn có sẵn để bạn tận hưởng từng ngụm trà sữa ngọt ngào thơm ngậy thiệt đã."
+    },
+    {
+      "id": 14,
+      "productName": "Hồng Trà Sữa Nóng",
+      "type": "fruit tea",
+      "image": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg",
+      "price": "55",
+      "description": "https://minio.thecoffeehouse.com/image/admin/hong-tra-sua-nong_941687.jpg"
+    }
+  ],
   "order": [
     {
       "id": "20801b22-ada9-4c01-980a-c05f7207d44f",
