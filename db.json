@@ -1,22 +1,13 @@
 {
   "users": [
     {
-      "email": "tu@gmail.com",
-      "password": "$2a$10$jpT9Vv84Cbh7BsZCLkwHFuv8qm63i18ByA3UB9Qd2qEgp.Bi.myrm",
-      "name": "tu",
-      "phone": "123123123",
-      "address": "qưqưeqwdqfqf",
-      "decentralization": "admin",
-      "id": 1
-    },
-    {
       "email": "tintoo113@gmail.com",
-      "password": "$2a$10$jpT9Vv84Cbh7BsZCLkwHFuv8qm63i18ByA3UB9Qd2qEgp.Bi.myrm",
+      "password": "$2a$10$diXhqJzmbpcZtZsNIouKWeyzHCu3x4eGYYBEGKWlwLUTrtdSe5lv2",
       "name": "Tín Đoàn",
       "phone": "0712123123",
-      "decentralization": "admin",
       "address": "qưqfqf",
-      "id": 2
+      "decentralization": "admin",
+      "id": 1
     }
   ],
   "products": [
